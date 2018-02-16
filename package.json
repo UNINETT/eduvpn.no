@@ -1,0 +1,13 @@
+{
+	"name": "eduvpn.no",
+	"version": "1.0.0",
+	"description": "Landing page for eduvpn.no",
+	"repository": "https://github.com/UNINETT/eduvpn.no.git",
+	"author": "Jørn Åne de Jong <jorn.dejong@uninett.no>",
+	"license": "BSD-3-Clause",
+	"private": false,
+	"dependencies": {
+		"bootstrap": "3",
+		"uninett-theme": "https://scm.uninett.no/asm/uninett-theme.git"
+	}
+}
