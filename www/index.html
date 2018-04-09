@@ -7,10 +7,13 @@
 <link href="lib/uninett-theme/css/uninett.css" rel="stylesheet">
 <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="canonical" href="https://eduvpn.no/">
-<style type="text/css">
+<style>
 	.department {
 		margin-left: 16px;
 		padding-top: 8px;
+	}
+	video {
+		max-width: 100%;
 	}
 </style>
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -26,7 +29,7 @@
 	</div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	<div class="gutter uninett-color-white">
 		<p class="alert alert-info">EduVPN er en eksperimentell tjeneste</p>
@@ -41,7 +44,7 @@
 				måte å sikre veien til internettet fra sine telefoner,
 				tablets og datamaskinene.
 			<p>
-			<video width="100%" controls poster="eduvpn.mp4.jpg">
+			<video controls poster="eduvpn.mp4.jpg">
 				<source src="video/eduvpn.1080p.mp4" type="video/mp4" media="all and (min-device-width:721px)">
 				<source src="video/eduvpn.720p.mp4" type="video/mp4" media="all and (min-device-width:481px)">
 				<source src="video/eduvpn.480p.mp4" type="video/mp4" media="all and (min-device-width:361px)">
@@ -68,6 +71,7 @@
 				OpenVPN-konfigurasjonsfil som du kan laste i en OpenVPN klient.
 			<ul>
 				<li><a href="https://fed.eduvpn.no/">Manuell konfigurasjon</a>
+			</ul>
 		</div>
 	</div>
 
@@ -92,7 +96,7 @@
 </main>
 
 <hr class="uninett-hr-divider">
-<footer id="footer" class="container">
+<footer id="footer">
 	<div class="footer-uninett">
 		<div class="footer-content-uninett">
 			<div class="footer-logo"> <img src="lib/uninett-theme/images/Uninett_pil_rod.svg" alt="Uninett logo"></div>
