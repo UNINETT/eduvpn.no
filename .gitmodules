@@ -1,0 +1,3 @@
+[submodule "uninett-bs-theme"]
+	path = www/uninett-bs-theme
+	url = https://github.com/uninett/uninett-bs-theme

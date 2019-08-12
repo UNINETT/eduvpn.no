@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="nb">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="uninett-bs-theme/dist/css/uninett.css" type="text/css">
+
+<title>eduVPN</title>
+
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light navbar-uninett">
+	<div class="container">
+		<a class="navbar-brand" href="/">eduVPN</a>
+	</div><!-- /container -->
+</nav>
+
+<!-- Bootstrap doesn't normally support two column layout this way -->
+<!-- Need pl-0 and pr-0 to avoid extra spacing from appearing -->
+<div class="container pl-0 pr-0">
+
+	<div class="row no-gutters">
+		<div class="col-md-12 col-lg-7"><!-- left column -->
+			<div class="container"><!-- normal Bootstrap container -->
+				<div class="row">
+
+					<div class="col-12">
+						<div class="unipanel unipanel-bg-netmap">
+							<div class="unicontent">
+								<h1>eduVPN:<br>Nettverk uten hull</h1>
+								<p>eduVPN gir ansatte, forskere og studenter en enkel måte å sikre veien til internettet fra sine telefoner, tablets og datamaskinene.</p>
+								<p>
+									<button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModalCenter">
+										<i class="oi oi-chevron-right"></i>
+										Se video (engelsk)
+									</button>
+								</p>
+							</div>
+						</div>
+					</div>
+
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</div><!-- end left column -->
+
+		<div class="col-md-12 col-lg-5"><!-- right column -->
+			<div class="container"><!-- normal Bootstrap container -->
+				<div class="row">
+
+					<div class="col-12">
+						<div class="unipanel">
+							<div class="unicontent">
+
+								<h2>Kom i gang</h2>
+								<p>Installer appen for ditt operativsystem.
+								<ul>
+									<li><a href="https://app.eduvpn.nl/windows/eduVPNClient_latest.exe">Windows</a>
+									<li><a href="https://app.eduvpn.nl/mac/eduVPN_latest.dmg">macOS</a>
+									<li><a href="https://python-eduvpn-client.readthedocs.io/en/latest/introduction.html#installation">Linux</a>
+									<li><a href="https://itunes.apple.com/nl/app/eduvpn-client/id1292557340?mt=8">iOS</a>
+									<li><a href="https://play.google.com/store/apps/details?id=nl.eduvpn.app">Google Android</a>
+										(<a href="https://app.eduvpn.nl/android/eduvpn-latest.apk">APK</a>)
+								</ul>
+								<p>Dersom ditt operativsystem ikke støttes kan du få en
+									OpenVPN-konfigurasjonsfil som du kan laste i en OpenVPN klient.
+								<ul>
+									<li><a href="https://guest.eduvpn.no/">Manuell konfigurasjon</a>
+								</ul>
+
+							</div>
+						</div>
+					</div>
+
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</div><!-- end left column -->
+	</div><!-- /row no-gutters -->
+
+	<div class="col-12">
+		<div class="unipanel unipanel-bg-diagonal">
+			<div class="unicontent">
+				<h2>Vil du vite mer?</h2>
+				<p>eduVPN er en VPN-tjeneste som driftes av det nasjonale
+					forskningsnettet.  Det vil si at forbindelsen din er like
+					trygg som når du er på <a href="https://eduroam.no">eduroam</a>
+					eller når du er på universitetet eller høyskolen.
+				<p>I tillegg er eduVPN et samarbeid mellom forskningsnett fra
+					forskjellige land.  Dette betyr at du kan også bruke eduVPN-servere
+					fra andre land, på samme måte du kan logge inn på
+					<a href="https://eduroam.no">eduroam</a> i andre land.
+				<p>Prosjektet er et samarbeid mellom forskjellige forskningsnett,
+					blant annet NorduNet, som Uninett er en del av.  eduVPN er i testfasen i Norge.
+				<p>Se på den internasjonale nettsiden til eduVPN for mer
+					<a href="https://eduvpn.org/">informasjon om eduVPN</a>.
+				<p><a href="mailto:eduroam@uninett.no">Ta kontakt med oss for å bli med på å teste eduVPN!</a>
+			</div>
+		</div>
+	</div>
+
+</div><!-- /container -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" lang="en">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h1 class="h5 modal-title" id="exampleModalCenterTitle">eduVPN: no holes in your network access</h1>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<video controls poster="eduvpn.mp4.jpg" class="container">
+					<source src="video/eduvpn.1080p.mp4" type="video/mp4" media="all and (min-device-width:721px)">
+					<source src="video/eduvpn.720p.mp4" type="video/mp4" media="all and (min-device-width:481px)">
+					<source src="video/eduvpn.480p.mp4" type="video/mp4" media="all and (min-device-width:361px)">
+					<source src="video/eduvpn.360p.mp4" type="video/mp4" media="all and (min-device-width:241px)">
+					<source src="video/eduvpn.240p.mp4" type="video/mp4" media="all and (min-device-width:145px)">
+					<source src="video/eduvpn.144p.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer class="container">
+	<p><i class="oi oi-chevron-right icon-small"></i> Uninett AS</p>
+</footer>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="uninett-bs-theme/dist/js/jquery.slim.js"></script>
+<script src="uninett-bs-theme/dist/js/popper.min.js"></script>
+<script src="uninett-bs-theme/dist/js/bootstrap.min.js"></script>
